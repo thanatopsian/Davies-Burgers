@@ -38,6 +38,10 @@ body {
     color: #666666;
   }
   
+  nav a:hover{
+    color: #05A8AA;   
+  }
+  
   /* Content Container */
   
   .content {
