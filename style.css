@@ -1,11 +1,10 @@
 /* Universal Styles */
 
 body {
-    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_foodlogo.png");
+    
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    overflow: scroll;
   }
   
   a {
@@ -16,8 +15,7 @@ body {
   
   nav {
     text-align: center;
-    position: fixed;
-    top:0;
+    margin: 0px auto 0px auto;
   }
   
   nav img {
@@ -36,10 +34,11 @@ body {
   
   nav a {
     color: #666666;
+    transition: border-bottom 0.25s;
   }
   
-  nav a:hover{
-    color: #05A8AA;   
+  nav a:hover {
+    border-bottom:3px solid #05A8AA;   
   }
   
   /* Content Container */
@@ -100,9 +99,7 @@ body {
   }
   
   .button:hover {
-    border:1px solid blue;
     background-color: #05A8AA;
-    border: 1px solid #05A8AA;
     color: #FFF;
   }
   
